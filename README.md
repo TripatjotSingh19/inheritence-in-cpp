@@ -44,3 +44,49 @@ Example: Department → University + Facility.
 Combination of two or more types (e.g., hierarchical + multiple).
 
 # Algorithms
+# Single Inheritance
+        Start
+        Define a base class Vehicle with a method color().
+        Define a derived class Car that inherits from Vehicle and adds speed().
+        In main():
+        Create object myCar.
+        Call color() and speed().
+        End
+# Multilevel Inheritance
+        Start
+        Define base class University with showUni().
+        Define derived class Department inheriting University, with showDept().
+        Define derived class Lab inheriting Department, with showLab().
+        In main():
+        Create object VLSI.
+        Call all three methods.
+        End
+# Hierarchical Inheritance
+        Start
+        Define base class University.
+        Define three derived classes: Department, Hostel, Library.
+        Each derived class has its own method.
+        In main():
+        Create objects of each derived class.
+        Call base + derived methods.
+        End
+# Multiple Inheritance
+        Start
+        Define base class University.
+        Define base class Facility.
+        Define derived class Department inheriting from both.
+        In main():
+        Create object ec.
+        Call methods from both base classes + derived class.
+        End
+# Hybrid Inheritance
+        Start
+        Combine hierarchical + multiple inheritance.
+        Example: University as base.
+        Department and Hostel inherit from University.
+        Lab inherits from Department and also uses Facility.
+        In main():
+        Create objects and demonstrate combined features.
+        End
+# Conclusion
+This experiment demonstrates the power of inheritance in C++:
